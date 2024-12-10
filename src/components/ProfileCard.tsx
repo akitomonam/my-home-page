@@ -41,7 +41,7 @@ export function ProfileCard() {
         <div className="flex items-center space-x-6 text-sm text-muted-foreground">
           <div className="flex items-center space-x-2">
             <MapPin className="h-4 w-4" />
-            <span>東京都</span>
+            <span>大阪府</span>
           </div>
           <div className="flex items-center space-x-2">
             <LinkIcon className="h-4 w-4" />
@@ -56,7 +56,7 @@ export function ProfileCard() {
         <div className="space-y-2">
           <p className="text-sm text-muted-foreground leading-relaxed">
             新しい技術を学ぶことが大好きなエンジニアです。
-            ユーザー体験を重視したWeb開発を得意としています。
+            アジャイル開発を得意としています。
           </p>
         </div>
 
@@ -66,26 +66,9 @@ export function ProfileCard() {
           <Badge variant="secondary" className="rounded-full px-3">Node.js</Badge>
           <Badge variant="secondary" className="rounded-full px-3">Next.js</Badge>
           <Badge variant="secondary" className="rounded-full px-3">AWS</Badge>
-        </div>
-
-        <div className="grid grid-cols-3 gap-4 p-4 bg-muted/50 rounded-lg">
-          <div className="text-center">
-            <div className="font-semibold">1.2k</div>
-            <div className="text-xs text-muted-foreground">フォロワー</div>
-          </div>
-          <div className="text-center border-x border-border/50">
-            <div className="font-semibold">234</div>
-            <div className="text-xs text-muted-foreground">フォロー中</div>
-          </div>
-          <div className="text-center">
-            <div className="font-semibold">56</div>
-            <div className="text-xs text-muted-foreground">プロジェクト</div>
-          </div>
-        </div>
-
-        <div className="flex gap-2">
-          <Button className="w-full rounded-full">フォロー</Button>
-          <Button variant="outline" className="w-full rounded-full">メッセージ</Button>
+          <Badge variant="secondary" className="rounded-full px-3">Docker</Badge>
+          <Badge variant="secondary" className="rounded-full px-3">Git</Badge>
+          <Badge variant="secondary" className="rounded-full px-3">GitHub</Badge>
         </div>
       </CardContent>
     </Card>
