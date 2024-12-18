@@ -109,7 +109,7 @@ function App() {
             >
               <Box
                 component="a"
-                href="https://github.com/yourusername"
+                href="https://github.com/akitomonam"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -123,7 +123,7 @@ function App() {
               </Box>
               <Box
                 component="a"
-                href="https://twitter.com/yourusername"
+                href="https://x.com/AKITOMO_N4M"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -137,7 +137,7 @@ function App() {
               </Box>
               <Box
                 component="a"
-                href="https://qiita.com/yourusername"
+                href="https://qiita.com/akitomonam"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -152,13 +152,6 @@ function App() {
                   }} 
                 />
               </Box>
-              <LinkedInIcon 
-                sx={{ 
-                  color: "#f0f0f0", 
-                  fontSize: 30,
-                  cursor: "pointer",
-                }} 
-              />
             </Box>
           </Box>
         </Grid>
